@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unstop Desktop</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="desktop_view">
+    <div class="view-container">
+    <aside>
+        <ul>
+            <li>
+                <i class='bx bxs-dashboard'></i>
+                <span>Dashboard</span>
+            </li>
+            <li class="active">
+                <i class='bx bx-task'></i>
+                <span>Assessment</span>
+            </li>
+            <li>
+                <i class="fa fa-clipboard-question"></i>
+                <span>My Library</span>
+            </li>
+            <li>
+                <span class="badge">Admin</span>
+                <i class="fa  fa-clipboard-user"></i>
+                <span>Round Status</span>
+            </li>
+        </ul>
+    </aside>
+
+    <main class="main">
+        <div class="main__nav">
+            <div class="main__nav--first-container">
+                <span>Assessment</span>
+                <span>My Assessments</span>
+            </div>
+
+            <div class="main__nav--mobile-view">
+                <i class="fa fa-mobile mobile-icon"></i>
+            </div>
+
+        </div>
+
+        <div class="main__assessments">
+            <span class="main__assessments-heading">Assessments Overview</span>
+            <div class="main__assessments-container">
+                <div class="main__assessments-stat-blocks">
+                    <span class="main__stat-heading">Total Assessment</span>
+                    <div>
+                        <i class="fa fa-bars-progress asses-icon"></i>
+                        <span class="main__assessments-number">34</span>
+                    </div>
+                </div>
+                <div class="main__assessments-stat-blocks ">
+                    <span class="main__stat-heading">Candidates</span>
+                    <div class="stat-three">
+                        <div>
+                            <i class="fa fa-user-group asses-icon"></i>
+                        </div>
+                        <div>
+                            <div>
+                                <span class="main__assessments-number">11,145</span>
+                                <span class="main__assessments-sub">+89</span>
+                            </div>
+                            <span class="main__assessments-sub-heading">Total Candidate</span>
+                        </div>
+                        <div>
+                            <div>
+                                <span class="main__assessments-number">1,14</span>
+                                <span class="main__assessments-sub">+89</span>
+                            </div>
+                            <span class="main__assessments-sub-heading">Who Attempted</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__assessments-stat-blocks ">
+                    <span class="main__stat-heading">Candidates Source</span>
+                    <div class="stat-three">
+                        <div>
+                            <i class="fa fa-globe asses-icon-red"></i>
+                        </div>
+                        <div>
+                            <div>
+                                <span class="main__assessments-number">11,000</span>
+                                <span class="main__assessments-sub">+89</span>
+                            </div>
+                            <span class="main__assessments-sub-heading">E-mail</span>
+                        </div>
+                        <div>
+                            <div>
+                                <span class="main__assessments-number">145</span>
+                                <span class="main__assessments-sub"> +89</span>
+                            </div>
+                            <span class="main__assessments-sub-heading">Social Share</span>
+                        </div>
+                        <div>
+                            <div>
+                                <span class="main__assessments-number">145</span>
+                                <span class="main__assessments-sub" class="main__assessments-sub">+89</span>
+                            </div>
+                            <span class="main__assessments-sub-heading">Unique Link</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__assessments-stat-blocks">
+                    <span class="main__stat-heading">Total Purpose</span>
+                    <div>
+                        <i class="fa fa-link asses-icon"></i>
+                        <span class="main__assessments-number">11</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="main__assessments">
+            <span class="main__assessments-heading my__assessments">My Assessment</span>
+            <div class="my__assessments-container">
+                <div class="my__assessments-first  assessment__form">
+                     <span class="my__assessments-add"></span>
+                     <span>New Assessment</span>
+                     <span>From here you can add questions of mulitple types like MCQs, subjective (text or paragraphy)!</span>
+                </div>
+            
+            <div class="my__assessments-stat ">
+                <div class="my__assessments-stat-head">
+                    <i class="fa fa-briefcase briefcase"></i>
+                    <i class="fa fa-ellipsis-vertical dots"></i>
+                </div>
+                <div class="my__assessments-stat-info">
+                    <span>Math Assessment</span>
+                    <div class="my__assessments-date"> 
+                        <span>Job</span>
+                        <span>
+                            <i class="fa fa-calendar-days"></i>
+
+                            <span>20</span>
+                            <span>Apr</span>
+                            <span>2023</span>
+                            
+                        </span> 
+                     </div>
+                </div>
+                <div class="my__assessments-stat-duration">
+                    <div class="my__assessments-stat-duration-inner" >
+                        <div class="my__assessments-stat-time">
+                            <span>00</span>
+                            <span>Duration</span>
+                        </div>
+                        <div class="my__assessments-stat-time">
+                            <span>00</span>
+                            <span>Questions</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="my__assessments-share-section">
+                            <span class="my__assessments-share"> <i class="fa fa-link"></i> <span >Share</span> </span>
+                            <span class="my__assessments-stat-duration-badge"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my__assessments-stat ">
+                <div class="my__assessments-stat-head">
+                    <i class="fa fa-briefcase briefcase"></i>
+                    <i class="fa fa-ellipsis-vertical dots"></i>
+                </div>
+                <div class="my__assessments-stat-info">
+                    <span>Math Assessment</span>
+                    <div class="my__assessments-date"> 
+                        <span>Job</span>
+                        <span>
+                            <i class="fa fa-calendar-days"></i>
+
+                            <span>20</span>
+                            <span>Apr</span>
+                            <span>2023</span>
+                            
+                        </span> 
+                     </div>
+                </div>
+                <div class="my__assessments-stat-duration">
+                    <div class="my__assessments-stat-duration-inner" >
+                        <div class="my__assessments-stat-time">
+                            <span>00</span>
+                            <span>Duration</span>
+                        </div>
+                        <div class="my__assessments-stat-time">
+                            <span>00</span>
+                            <span>Questions</span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="my__assessments-share-section multi-badge-share">
+                           <span class="my__assessments-share"> <i class="fa fa-link"></i> <span >Share</span> </span>
+                           <span class="my__assessments-multi-badge">
+                               <span class=" multi-badge multi-badge-1"> </span>
+                               <span class=" multi-badge multi-badge-2 "></span>
+                               <span class=" multi-badge multi-badge-3 "></span>
+                           </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+</div>
+</div>
+
+<div class="assesment__form-container ">
+    <div class="overlay"></div>
+        <form action="#" class="form__pop">
+            <div class="form__header">
+                <span>Create new assessment</span>
+                <i class="fa fa-xmark close_btn"></i>
+            </div>
+
+            <div class="form__input-box">
+                <label for="name">Name of assessment</label>
+                <input type="text" name="name" placeholder="Type Here">
+            </div>
+            <div class="form__input-box">
+                <label for="purpose">Purpose of the test is</label>
+                <div class="select">
+                    <select name="" id="" name="purpose">
+                        <option value="select">Select</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form__input-box">
+                <label for="desc">Description</label>
+                <div class="select">
+                    <select name="" id="" name="desc">
+                        <option value="select">Select</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form__input-box">
+                <label for="skills">Skills</label>
+                <div class="form__skills-container">
+                    <div name="">
+                        <span>UI/UX and Design <i class="fa fa-xmark"></i></span>
+                        <span>UI/UX and Design <i class="fa fa-xmark"></i></span>
+                        <span>UI/UX and Design <i class="fa fa-xmark"></i></span>
+                        <span>UI/UX and Design <i class="fa fa-xmark"></i></span>
+                        <span>UI/UX and Design <i class="fa fa-xmark"></i></span>
+                     
+                    </div>
+                    <span class="form_skill_type">Type here</span>
+                </div>
+            </div>
+            <div class="form__input-box">
+                <label for="duration">Duration of assessment assessment</label>
+                <input type="text" placeholder="HH:MM:SS"  name="name">
+            </div>            
+        
+            <div class="form__btn form__input-box">
+                <button type="button">Save</button>
+            </div>
+
+        </form>
+</div>
+
+
+
+
+<!-- For mobile view  -->
+
+<div class="mobile_view">
+<div class="mobile__overlay"></div>
+<div class="mobile__view-sidebar mobile__view-side">
+    <div class="mobile__view-sidebar-sub">
+        <span>Menu</span>
+        <i class="fa fa-xmark mobile_close"></i>
+    </div>
+    <ul>
+        <li>
+            <i class='bx bxs-dashboard'></i>
+            <span>Dashboard</span>
+        </li>
+        <li class="mobile__active">
+            <i class='bx bx-task'></i>
+            <span>Assessment</span>
+        </li>
+        <li>
+            <i class="fa fa-clipboard-question"></i>
+            <span>My Library</span>
+        </li>
+        <li class="mobile_admin">
+            <div>
+                <i class="fa  fa-clipboard-user"></i>
+            <span>Round Status</span>
+        </div>
+        <span class="badge mobile-badge">Admin</span>
+        </li>
+    </ul>
+</div>
+<section class="mobile__view-container">
+
+
+    <div class="mobile__status">
+        <span>9:41</span>
+        <div>
+            <i class="fa fa-signal"></i>
+            <i class="fa fa-wifi"></i>
+            <i class="fa fa-battery-full"></i>
+        </div>
+    </div>
+   <div class="mobile__view-nav">
+    <div class="mobile__view-sub-nav">
+        <i class="fa fa-bars-staggered mobile__view-btn"></i>
+        <span>Assessments</span>
+    </div>
+    <i class="fa fa-laptop desktop__view-btn"></i>
+   </div>
+
+   <div class="mobile_view-nav-tabs">
+     <span>
+        My Assessments
+     </span>
+     <span>
+        Unstop Assessments
+     </span>
+   </div>
+</section>
+
+<section class="mobile__view-stats">
+
+ <div class="mobile__view-first-stats">
+    <div>
+        <span class="mobile__view-stat-heading">Total Assessment</span>
+        <span>
+            <i class="fa fa-bars-progress asses-icon"></i>
+            <span class="mobile__stat-number">34</span>
+        </span>
+    </div>
+    <div>
+        <span  class="mobile__view-stat-heading">
+            Total Purpose
+        </span>
+        <span>
+            <i class="fa fa-link asses-icon"></i>
+            <span class="mobile__stat-number">11</span>
+        </span>
+    </div>
+ </div> 
+ <div class="mobile__view-second-stat">
+     <span  class="mobile__view-stat-heading">Candidates</span>
+     <div>
+     <i class="fa fa-user-group asses-icon"></i>
+     <span class="mobile_stat-border-right">
+         <span class="mobile__stat-number">11,145</span>
+         <span class="mobile__stat-sub">+89</span>
+         <p class="mobile__stata-sub-heading" >Total Candidate</p>
+     </span>
+     <span>
+         <span class="mobile__stat-number">1,14</span>
+         <span class="mobile__stat-sub">+89</span>
+         <p class="mobile__stata-sub-heading">Who Attempted</p>
+     </span>
+     </div>  
+ </div>
+
+ <div class="mobile__view-second-stat mobile__third">
+    <span  class="mobile__view-stat-heading">Candidates Source</span>
+    <div>
+        <i class="fa fa-globe asses-icon-red"></i>
+    <span class="mobile_stat-border-right">
+        <span class="mobile__stat-number">11,145</span>
+        <span class="mobile__stat-sub">+89</span>
+        <p class="mobile__stata-sub-heading">E-mail</p>
+    </span>
+    <span class="mobile_stat-border-right">
+        <span class="mobile__stat-number">1,14</span>
+        <span class="mobile__stat-sub">+89</span>
+        <p class="mobile__stata-sub-heading">Social Share</p>
+    </span>
+    <span>
+        <span class="mobile__stat-number">1,14</span>
+        <span class="mobile__stat-sub">+89</span>
+        <p class="mobile__stata-sub-heading">Unique Link</p>
+    </span>
+    </div>  
+</div>
+</section>
+
+<section class="mobile__view-assessments">
+
+    <div class="mobile__view-assessments-nav">
+        <span>
+            My Assessment
+        </span>
+        <div >
+            <i class="fa fa-magnifying-glass mobile_stat-btn"></i>
+            <i class="fa fa-filter  mobile_stat-btn"></i>
+            <i class="fa-sharp fa-solid fa-chart-simple mobile_stat-btn mobile__stat-toggle"></i>
+        </div>
+    </div>
+
+</section>
+
+<section class="mobile__view-all-assessments">
+    <div class="my__assessments-first  assessment__form mobile_assessment_form mobile__view-first-assessment">
+        <span class="my__assessments-add"></span>
+        <span>New Assessment</span>
+        <span>From here you can add questions of mulitple types like MCQs, subjective (text or paragraphy)!</span>
+   </div>
+
+   <!-- for assesment stats -->
+
+   <div class=" my__assessments-stat mobile__assessments-stat ">
+    <div class=" my__assessments-stat-head mobile__assessments-stat-head">
+        <i class="fa fa-briefcase briefcase mobile_briefcase"></i>
+        <i class="fa fa-ellipsis-vertical dots mobile_dots "></i>
+    </div>
+    <div class=" my__assessments-stat-info mobile__assessments-stat-info">
+        <span>Math Assessment</span>
+        <div class="my__assessments-date mobile__assessments-date"> 
+            <span>Job</span>
+            <span>
+                <i class="fa fa-calendar-days"></i>
+
+                <span>20</span>
+                <span>Apr</span>
+                <span>2023</span>
+                
+            </span> 
+         </div>
+    </div>
+    <div class=" my__assessments-stat-duration mobile__assessments-stat-duration">
+        <div class=" my__assessments-stat-duration-inner mobile__assessments-stat-duration-inner" >
+            <div class=" my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Duration</span>
+            </div>
+            <div class=" my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Questions</span>
+            </div>
+        </div>
+        <div>
+            <div class="my__assessments-share-section mobile__assessments-share-section">
+                <span class="my__assessments-share mobile__assessments-share"> <i class="fa fa-link"></i> <span >Share</span> </span>
+                <span class=" my__assessments-stat-duration-badge  mobile__assessments-stat-duration-badge"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="my__assessments-stat  mobile__assessments-stat">
+    <div class="my__assessments-stat-head mobile__assessments-stat-head">
+        <i class="fa fa-briefcase briefcase mobile_briefcase"></i>
+        <i class="fa fa-ellipsis-vertical dots mobile_dots"></i>
+    </div>
+    <div class="my__assessments-stat-info mobile__assessments-stat-info">
+        <span>Math Assessment</span>
+        <div class="my__assessments-date mobile__assessments-date"> 
+            <span>Job</span>
+            <span>
+                <i class="fa fa-calendar-days"></i>
+
+                <span>20</span>
+                <span>Apr</span>
+                <span>2023</span>
+                
+            </span> 
+         </div>
+    </div>
+    <div class="my__assessments-stat-duration mobile__assessments-stat-duration">
+        <div class="my__assessments-stat-duration-inner mobile__assessments-stat-duration-inner" >
+            <div class="my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Duration</span>
+            </div>
+            <div class="my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Questions</span>
+            </div>
+        </div>
+        <div>
+            <div class="my__assessments-share-section mobile__assessments-share-section multi-badge-share mobile_multi-badge-share">
+               <span class="my__assessments-share mobile__assessments-share"> <i class="fa fa-link"></i> <span >Share</span> </span>
+               <span class="my__assessments-multi-badge mobile__assessments-multi-badge">
+                   <span class=" multi-badge multi-badge-1 mobile_multi-badge mobile_multi-badge-1"> </span>
+                   <span class=" multi-badge multi-badge-2 mobile_multi-badge mobile_multi-badge-2"></span>
+                   <span class=" multi-badge multi-badge-3 mobile_multi-badge mobile_multi-badge-3"></span>
+               </span>
+               <span class="mobile_mulit-number">+324</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="my__assessments-stat  mobile__assessments-stat">
+    <div class="my__assessments-stat-head mobile__assessments-stat-head">
+        <i class="fa fa-briefcase briefcase mobile_briefcase"></i>
+        <i class="fa fa-ellipsis-vertical dots mobile_dots"></i>
+    </div>
+    <div class="my__assessments-stat-info mobile__assessments-stat-info">
+        <span>Math Assessment</span>
+        <div class="my__assessments-date mobile__assessments-date"> 
+            <span>Job</span>
+            <span>
+                <i class="fa fa-calendar-days"></i>
+
+                <span>20</span>
+                <span>Apr</span>
+                <span>2023</span>
+                
+            </span> 
+         </div>
+    </div>
+    <div class="my__assessments-stat-duration mobile__assessments-stat-duration">
+        <div class="my__assessments-stat-duration-inner mobile__assessments-stat-duration-inner" >
+            <div class="my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Duration</span>
+            </div>
+            <div class="my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Questions</span>
+            </div>
+        </div>
+        <div>
+            <div class="my__assessments-share-section mobile__assessments-share-section multi-badge-share mobile_multi-badge-share">
+               <span class="my__assessments-share mobile__assessments-share"> <i class="fa fa-link"></i> <span >Share</span> </span>
+               <span class="my__assessments-multi-badge mobile__assessments-multi-badge">
+                   <span class=" multi-badge multi-badge-1 mobile_multi-badge mobile_multi-badge-1"> </span>
+                   <span class=" multi-badge multi-badge-2 mobile_multi-badge mobile_multi-badge-2"></span>
+                   <span class=" multi-badge multi-badge-3 mobile_multi-badge mobile_multi-badge-3"></span>
+               </span>
+               <span class="mobile_mulit-number">+324</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="my__assessments-stat  mobile__assessments-stat">
+    <div class="my__assessments-stat-head mobile__assessments-stat-head">
+        <i class="fa fa-briefcase briefcase mobile_briefcase"></i>
+        <i class="fa fa-ellipsis-vertical dots mobile_dots"></i>
+    </div>
+    <div class="my__assessments-stat-info mobile__assessments-stat-info">
+        <span>Math Assessment</span>
+        <div class="my__assessments-date mobile__assessments-date"> 
+            <span>Job</span>
+            <span>
+                <i class="fa fa-calendar-days"></i>
+
+                <span>20</span>
+                <span>Apr</span>
+                <span>2023</span>
+                
+            </span> 
+         </div>
+    </div>
+    <div class="my__assessments-stat-duration mobile__assessments-stat-duration">
+        <div class="my__assessments-stat-duration-inner mobile__assessments-stat-duration-inner" >
+            <div class="my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Duration</span>
+            </div>
+            <div class="my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Questions</span>
+            </div>
+        </div>
+        <div>
+            <div class="my__assessments-share-section mobile__assessments-share-section multi-badge-share mobile_multi-badge-share">
+               <span class="my__assessments-share mobile__assessments-share"> <i class="fa fa-link"></i> <span >Share</span> </span>
+               <span class="my__assessments-multi-badge mobile__assessments-multi-badge">
+                   <span class=" multi-badge multi-badge-1 mobile_multi-badge mobile_multi-badge-1"> </span>
+                   <span class=" multi-badge multi-badge-2 mobile_multi-badge mobile_multi-badge-2"></span>
+                   <span class=" multi-badge multi-badge-3 mobile_multi-badge mobile_multi-badge-3"></span>
+               </span>
+               <span class="mobile_mulit-number">+324</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="my__assessments-stat  mobile__assessments-stat">
+    <div class="my__assessments-stat-head mobile__assessments-stat-head">
+        <i class="fa fa-briefcase briefcase mobile_briefcase"></i>
+        <i class="fa fa-ellipsis-vertical dots mobile_dots"></i>
+    </div>
+    <div class="my__assessments-stat-info mobile__assessments-stat-info">
+        <span>Math Assessment</span>
+        <div class="my__assessments-date mobile__assessments-date"> 
+            <span>Job</span>
+            <span>
+                <i class="fa fa-calendar-days"></i>
+
+                <span>20</span>
+                <span>Apr</span>
+                <span>2023</span>
+                
+            </span> 
+         </div>
+    </div>
+    <div class="my__assessments-stat-duration mobile__assessments-stat-duration">
+        <div class="my__assessments-stat-duration-inner mobile__assessments-stat-duration-inner" >
+            <div class="my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Duration</span>
+            </div>
+            <div class="my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Questions</span>
+            </div>
+        </div>
+        <div>
+            <div class="my__assessments-share-section mobile__assessments-share-section multi-badge-share mobile_multi-badge-share">
+               <span class="my__assessments-share mobile__assessments-share"> <i class="fa fa-link"></i> <span >Share</span> </span>
+               <span class="my__assessments-multi-badge mobile__assessments-multi-badge">
+                   <span class=" multi-badge multi-badge-1 mobile_multi-badge mobile_multi-badge-1"> </span>
+                   <span class=" multi-badge multi-badge-2 mobile_multi-badge mobile_multi-badge-2"></span>
+                   <span class=" multi-badge multi-badge-3 mobile_multi-badge mobile_multi-badge-3"></span>
+               </span>
+               <span class="mobile_mulit-number">+324</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="my__assessments-stat  mobile__assessments-stat">
+    <div class="my__assessments-stat-head mobile__assessments-stat-head">
+        <i class="fa fa-briefcase briefcase mobile_briefcase"></i>
+        <i class="fa fa-ellipsis-vertical dots mobile_dots"></i>
+    </div>
+    <div class="my__assessments-stat-info mobile__assessments-stat-info">
+        <span>Math Assessment</span>
+        <div class="my__assessments-date mobile__assessments-date"> 
+            <span>Job</span>
+            <span>
+                <i class="fa fa-calendar-days"></i>
+
+                <span>20</span>
+                <span>Apr</span>
+                <span>2023</span>
+                
+            </span> 
+         </div>
+    </div>
+    <div class="my__assessments-stat-duration mobile__assessments-stat-duration">
+        <div class="my__assessments-stat-duration-inner mobile__assessments-stat-duration-inner" >
+            <div class="my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Duration</span>
+            </div>
+            <div class="my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Questions</span>
+            </div>
+        </div>
+        <div>
+            <div class="my__assessments-share-section mobile__assessments-share-section multi-badge-share mobile_multi-badge-share">
+               <span class="my__assessments-share mobile__assessments-share"> <i class="fa fa-link"></i> <span >Share</span> </span>
+               <span class="my__assessments-multi-badge mobile__assessments-multi-badge">
+                   <span class=" multi-badge multi-badge-1 mobile_multi-badge mobile_multi-badge-1"> </span>
+                   <span class=" multi-badge multi-badge-2 mobile_multi-badge mobile_multi-badge-2"></span>
+                   <span class=" multi-badge multi-badge-3 mobile_multi-badge mobile_multi-badge-3"></span>
+               </span>
+               <span class="mobile_mulit-number">+324</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="my__assessments-stat  mobile__assessments-stat">
+    <div class="my__assessments-stat-head mobile__assessments-stat-head">
+        <i class="fa fa-briefcase briefcase mobile_briefcase"></i>
+        <i class="fa fa-ellipsis-vertical dots mobile_dots"></i>
+    </div>
+    <div class="my__assessments-stat-info mobile__assessments-stat-info">
+        <span>Math Assessment</span>
+        <div class="my__assessments-date mobile__assessments-date"> 
+            <span>Job</span>
+            <span>
+                <i class="fa fa-calendar-days"></i>
+
+                <span>20</span>
+                <span>Apr</span>
+                <span>2023</span>
+                
+            </span> 
+         </div>
+    </div>
+    <div class="my__assessments-stat-duration mobile__assessments-stat-duration">
+        <div class="my__assessments-stat-duration-inner mobile__assessments-stat-duration-inner" >
+            <div class="my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Duration</span>
+            </div>
+            <div class="my__assessments-stat-time mobile__assessments-stat-time">
+                <span>00</span>
+                <span>Questions</span>
+            </div>
+        </div>
+        <div>
+            <div class="my__assessments-share-section mobile__assessments-share-section multi-badge-share mobile_multi-badge-share">
+               <span class="my__assessments-share mobile__assessments-share"> <i class="fa fa-link"></i> <span >Share</span> </span>
+               <span class="my__assessments-multi-badge mobile__assessments-multi-badge">
+                   <span class=" multi-badge multi-badge-1 mobile_multi-badge mobile_multi-badge-1"> </span>
+                   <span class=" multi-badge multi-badge-2 mobile_multi-badge mobile_multi-badge-2"></span>
+                   <span class=" multi-badge multi-badge-3 mobile_multi-badge mobile_multi-badge-3"></span>
+               </span>
+               <span class="mobile_mulit-number">+324</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+<div class="mobile__view-add-btn">
+    <i class="fa-solid fa-plus"></i>
+</div>
+
+
+<div class="assesment__form-container mobile__form-container ">
+    <div class="mobile_overlay"></div>
+        <form action="#" class="mobile_form__pop ">
+            <div class=" mobile_form__header">
+                <span>Sub-Section Details</span>
+                <i class="fa fa-xmark  mobile_form_close"></i>
+            </div>
+
+            <div class="  mobile_form__input-box">
+                <label for="name">Name of assessment</label>
+                <input type="text" name="name" placeholder="Type Here">
+            </div>
+            <div class="  mobile_form__input-box">
+                <label for="purpose">Purpose of the test is</label>
+                <div class="mobile_select_container">
+                    <select name="" id="" name="desc" class="mobile_select">
+                        <option value="select">Select</option>
+                    </select>
+                </div>
+            </div>
+            <div class="  mobile_form__input-box">
+                <label for="desc">Description</label>
+                <div class="mobile_select_container">
+                    <select name="" id="" name="desc" class="mobile_select">
+                        <option value="select">Select</option>
+                    </select>
+                </div>
+            </div>
+            <div class="  mobile_form__input-box">
+                <label for="skills">Skills</label>
+                <div class="  mobile_form__skills-container">
+                    <div name="">
+                        <span>UI/UX and Design <i class="fa fa-xmark"></i></span>
+                        <span>UI/UX and Design <i class="fa fa-xmark"></i></span>
+                        <span>UI/UX and Design <i class="fa fa-xmark"></i></span>
+                        <span>UI/UX and Design <i class="fa fa-xmark"></i></span>
+                        <span>UI/UX and Design <i class="fa fa-xmark"></i></span>
+                     
+                    </div>
+                    <span class=" mobile_skill_type">Type here</span>
+                </div>
+            </div>
+                      
+        
+            <div class="   mobile_form__btn">
+                <button type="button">Save</button>
+            </div>
+        </form>
+</div>
+
+
+
+</div>
+                                 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./app.js"></script>
+</body>
+</html>
