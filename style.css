@@ -1756,8 +1756,8 @@ select {
   border-radius: 10px;
   width: 100%;
   position: fixed;
-  height: 100vh;
-  top: 12%;
+  height: 80vh;
+  top: 9%;
     z-index: 15;
 
    
